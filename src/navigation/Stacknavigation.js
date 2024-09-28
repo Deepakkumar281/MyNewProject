@@ -32,10 +32,10 @@ const Stack = createStackNavigator();
 export default function Stacknavigation() {
   return (
       <Stack.Navigator screenOptions={{headerShown:false}}>
-        {/* <Stack.Screen name="SplashScreen" component={SplashScreen}/>
+        <Stack.Screen name="SplashScreen" component={SplashScreen}/>
         <Stack.Screen name="SimpleCarousel" component={SimpleCarousel}/>
         <Stack.Screen name="Connectwallet" component={Connectwallet}/>
-        <Stack.Screen name="Wallet" component={Wallet}/> */}
+        <Stack.Screen name="Wallet" component={Wallet}/>
 
         <Stack.Screen name="Login" component={LoginScreen}/> 
         <Stack.Screen name="Forgot" component={Forgot}/> 
